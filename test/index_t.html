@@ -4,20 +4,32 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;500;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/index_t.css" />
     <title>Login</title>
   </head>
   <body>
     <div class="blurred-box">
-      <div class="logo"></div>
       <div class="user-login-box">
-          <div class="Login">Login</div>
+          <div class="logo">
+            <img src="../img/pipoca.png" alt="" />
+            <div>Movieland</div>
+          </div>
+          <div class="login">Login</div>
           <form action="">
+            <div>
               <label for="user-name"></label>
               <input id="user-name" class="user-name" type="text" />
+            </div>
+            <div>
               <label for="user-password"></label>
               <input id="user-password" class="user-password" type="password" />
+            </div>
+            <div>
               <input type="button" value="Login" onclick="Login()" class="custom-btn btn-submit"></input>
+            </div>
           </form>
       </div>
   </div>
